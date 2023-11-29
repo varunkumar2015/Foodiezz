@@ -1,0 +1,124 @@
+
+body, h1, h2, form {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #C8E6C9; 
+    text-align: center;
+}
+
+
+header {
+    background-color: #000; 
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+
+.registration {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 400px;
+}
+
+.registration h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label, input {
+    display: block;
+    margin: 10px 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button[type="submit"]:hover {
+    background-color: #1A1A1A; 
+}
+
+.rewards {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 400px;
+}
+
+
+.rewards h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#reward-points {
+    font-size: 24px;
+    color: #000; /* Black */
+    font-weight: bold;
+}
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333; /* Dark gray */
+    color: #fff; /* White */
+    padding: 15px;
+}
+
+nav {
+    text-align: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease; 
+}
+
+.nav-links a:hover {
+    color: #FF9800; 
+}
+
